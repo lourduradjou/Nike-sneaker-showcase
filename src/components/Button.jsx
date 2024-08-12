@@ -1,0 +1,22 @@
+const Button = ({ label, iconUrl }) => {
+	return (
+		<button
+			className='group flex justify-center max-w-48
+         items-center px-7 py-3 font-montserrat text-lg leading-none
+          bg-[#fdc500] rounded-full font-semibold
+          hover:bg-[#ff7b00] duration-300'
+		>
+			<span>{label}</span>
+
+			<span className="group-hover:rotate-90 group-hover:translate-x-3 duration-300 group-hover:-translate-y-1">
+				<img
+					src={iconUrl}
+					alt='arrow right icon'
+					className='ml-2 rounded-full w-8 h-8'
+				/>
+			</span>
+		</button>
+	)
+}
+
+export default Button
