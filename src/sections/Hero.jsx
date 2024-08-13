@@ -9,7 +9,7 @@ const Hero = () => {
 	const [bigShoeImg, setbigShoeImg] = useState(bigShoe1);
 	return (
 		<section className='select-none xl:w-full min-h-screen lg:padding-x pb-20 flex md:flex-row flex-col justify-center items-center max-container  '>
-			<div className='flex flex-col flex-wrap justify-center padding-l padding-y max-sm:padding-x md:w-2/4'>
+			<div className='flex flex-col flex-wrap justify-center padding-x padding-y max-sm:padding-x md:w-2/4'>
 				<p className='font-montserrat text-slate-gray text-sm lg:text-md mt-16'>
 					Your Stunning Experience With Our Shoes
 				</p>
