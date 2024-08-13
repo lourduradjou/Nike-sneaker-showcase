@@ -8,12 +8,12 @@ import { useState } from 'react'
 const Hero = () => {
 	const [bigShoeImg, setbigShoeImg] = useState(bigShoe1);
 	return (
-		<section className='select-none xl:w-full min-h-screen lg:padding-x pb-20 flex lg:flex-row flex-col justify-center items-center max-container  '>
+		<section className='select-none xl:w-full min-h-screen lg:padding-x pb-20 flex md:flex-row flex-col justify-center items-center max-container  '>
 			<div className='flex flex-col flex-wrap justify-center padding-l padding-y max-sm:padding-x md:w-2/4'>
 				<p className='font-montserrat text-slate-gray text-sm lg:text-md mt-16'>
 					Your Stunning Experience With Our Shoes
 				</p>
-				<h1 className='font-bold font-palanquin md:text-8xl text-4xl  flex flex-wrap'>
+				<h1 className='font-bold font-palanquin sm:text-8xl text-4xl  flex flex-wrap'>
 					<span className='xl:whitespace-nowrap relative w-full pr-10  '>
 						New Arrival
 					</span>
@@ -46,12 +46,12 @@ const Hero = () => {
 			<div className='relative flex flex-1 justify-center bg-hero bg-cover bg-primary flex-col items-center w-full max-sm:w-3/4 max-sm:mt-12 max-sm:rounded-xl'>
 				<img
 					src={bigShoeImg}
-					className='object-contain relative z-10  lg:min-h-screen'
+					className='object-contain relative z-10  md:min-h-screen'
 					alt='bigshoe'
 					width={500}
 					height={400}
 				/>
-				<div className='absolute bottom-[-12%] flex z-20 sm:gap-6 gap-4 max-sm:px-4 max-lg:bottom-[-30%] max-md:bottom-[-35%]'>
+				<div className='absolute bottom-[-12%] flex z-20 sm:gap-6 gap-4 max-sm:px-4 max-lg:bottom-[-10%] max-md:bottom-[-35%]'>
 					{
 						shoes.map((shoe) => (
 							<div key={shoe.bigShoe}>
