@@ -1,19 +1,19 @@
 import Button from '../components/Button'
 import { arrowRight } from '../assets/icons'
 import { statistics, shoes } from '../constants/index'
-import bigShoe1 from '../assets/images/big-shoe1.png';
+import bigShoe1 from '../assets/images/big-shoe1.png'
 import ShoeCart from '../components/ShoeCart'
 import { useState } from 'react'
 
 const Hero = () => {
-	const [bigShoeImg, setbigShoeImg] = useState(bigShoe1);
+	const [bigShoeImg, setbigShoeImg] = useState(bigShoe1)
 	return (
-		<section className='select-none xl:w-full min-h-screen lg:padding-x pb-20 flex md:flex-row flex-col justify-center items-center max-container  '>
-			<div className='flex flex-col flex-wrap justify-center padding-x padding-y max-sm:padding-x md:w-2/4'>
+		<section className='select-none xl:w-full min-h-screen padding-x flex md:flex-row flex-col max-md:items-center justify-center max-container '>
+			<div className='flex flex-col flex-wrap justify-center padding-x padding-y max-sm:padding-x md:w-2/4 '>
 				<p className='font-montserrat text-slate-gray text-sm lg:text-md mt-16'>
 					Your Stunning Experience With Our Shoes
 				</p>
-				<h1 className='font-bold font-palanquin sm:text-8xl text-4xl  flex flex-wrap'>
+				<h1 className='font-bold font-palanquin lg:text-8xl max-md:text-[70px] text-4xl  flex flex-wrap'>
 					<span className='xl:whitespace-nowrap relative w-full pr-10  '>
 						New Arrival
 					</span>
@@ -23,7 +23,7 @@ const Hero = () => {
 					</span>
 					Shoes
 				</h1>
-				<p className='font-montserrat text-md text-slate-gray py-6 max-sm:text-sm lg:w-2/3'>
+				<p className='font-montserrat text-md md:text-sm flex flex-wrap text-slate-gray py-6 max-sm:text-sm max-lg:w-full w-2/3'>
 					Discover Stylish Nike arrivals, quality comfort and
 					innovation for your active life.
 				</p>
@@ -43,22 +43,24 @@ const Hero = () => {
 					))}
 				</div>
 			</div>
-			<div className='relative flex flex-1 justify-center bg-hero bg-cover bg-primary flex-col items-center w-full max-sm:w-3/4 max-sm:mt-12 max-sm:rounded-xl'>
+			<div className='relative flex flex-1 justify-center min-h-screen  bg-hero bg-cover flex-col items-center w-full max-sm:w-3/4  max-md:h-2/4 max-sm:mt-12 max-sm:rounded-xl '>
 				<img
 					src={bigShoeImg}
-					className='object-contain relative z-10  md:min-h-screen'
+					className='object-contain relative z-10 flex items-center min-h-screen -top-10 max-lg:-top-32'
 					alt='bigshoe'
 					width={500}
 					height={400}
 				/>
-				<div className='absolute bottom-[-12%] flex z-20 sm:gap-6 gap-4 max-sm:px-4 max-lg:bottom-[-10%] max-md:bottom-[-35%]'>
-					{
-						shoes.map((shoe) => (
-							<div key={shoe.bigShoe}>
-								<ShoeCart imgObj={shoe} changeBigShoeImage={setbigShoeImg} bigShoeImage={bigShoeImg}/>
-							</div>
-						))
-					}
+				<div className='absolute xl:bottom-[4%] flex z-20 sm:gap-6 gap-4 max-sm:px-4 max-sm:bottom-[25%] bottom-[-140px] md:bottom-[140px]'>
+					{shoes.map((shoe) => (
+						<div key={shoe.bigShoe}>
+							<ShoeCart
+								imgObj={shoe}
+								changeBigShoeImage={setbigShoeImg}
+								bigShoeImage={bigShoeImg}
+							/>
+						</div>
+					))}
 				</div>
 			</div>
 		</section>

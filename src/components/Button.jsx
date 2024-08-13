@@ -3,7 +3,7 @@ const Button = ({ label, iconUrl }) => {
 		<button
 			className='group flex justify-center max-w-40
          items-center  py-3 px-2 font-montserrat text-lg leading-none
-          bg-[#fdc500] rounded-full font-semibold
+          bg-primary-yellow rounded-full font-semibold
           hover:bg-[#ff7b00] duration-300'
 		>
 			<span>{label}</span>
