@@ -1,8 +1,8 @@
 const Button = ({ label, iconUrl }) => {
 	return (
 		<button
-			className='group flex justify-center max-w-48
-         items-center px-7 py-3 font-montserrat text-lg leading-none
+			className='group flex justify-center max-w-40
+         items-center  py-3 px-2 font-montserrat text-lg leading-none
           bg-[#fdc500] rounded-full font-semibold
           hover:bg-[#ff7b00] duration-300'
 		>
@@ -12,7 +12,7 @@ const Button = ({ label, iconUrl }) => {
 				<img
 					src={iconUrl}
 					alt='arrow right icon'
-					className='ml-2 rounded-full w-8 h-8'
+					className='ml-2 rounded-full w-5 h-5'
 				/>
 			</span>
 		</button>
