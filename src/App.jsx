@@ -17,7 +17,7 @@ const App = () => {
 			<section className='xl:padding-1 wide:padding-r padding-b'>
 				<Hero />
 			</section>
-			<section className='padding-x min-h-screen'>
+			<section className='bg-slate-100 padding-x py-6'>
 				<PopularProducts />
 			</section>
 			<section className='padding'>
