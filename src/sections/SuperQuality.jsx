@@ -4,7 +4,7 @@ import Button from '../components/Button'
 
 const SuperQuality = () => {
 	return (
-		<div id="about-us" className='select-none max-container padding-x  flex max-lg:flex-col justify-between items-center flex-1'>
+		<section id="about-us" className='select-none max-container padding-x  flex max-lg:flex-col justify-between items-center flex-1'>
 			<div className='px-10 bg-slate-100 py-12 rounded-xl'>
 				<h1 className='bg-white p-4 rounded-xl flex flex-wrap tracking-wide font-bold capatalize font-palanquin sm:text-4xl text-2xl lg:max-w-lg w-full '>
 					<span className='xl:whitespace-nowrap relative w-full   '>
@@ -33,7 +33,7 @@ const SuperQuality = () => {
 			<div className='flex flex-1 justify-end items-center max-lg:mt-10'>
 				<img src={shoe8} alt='shoe8' width={480} height={500} />
 			</div>
-		</div>
+		</section>
 	)
 }
 

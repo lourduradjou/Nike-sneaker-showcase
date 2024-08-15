@@ -84,6 +84,7 @@ export const services = [
 		label: 'Secure Payment',
 		subtext:
 			'Experience worry-free transactions with our secure payment options.',
+		bgColor: 'bg-color-red',
 	},
 	{
 		imgURL: support,
