@@ -11,6 +11,7 @@ const SpecialOffers = () => {
 					alt='shoe offer image'
 					width={512}
 					heigth={476}
+          className='lg:rotate-12'
 				/>
 			</div>
 			<div>
