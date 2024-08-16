@@ -29,11 +29,11 @@ const App = () => {
 			<section className='padding'>
 				<SpecialOffers />
 			</section>
-			<section className='padding'>
-				<Subscribe />
+			<section className='padding  bg-hero'>
+				<CustomerReviews />
 			</section>
 			<section className='padding'>
-				<CustomerReviews />
+				<Subscribe />
 			</section>
 		</main>
 	)

@@ -13,7 +13,7 @@ const Hero = () => {
 				<p className='font-montserrat text-slate-gray text-sm lg:text-md mt-16'>
 					Your Stunning Experience With Our Shoes
 				</p>
-				<h1 className='font-bold font-palanquin lg:text-8xl max-md:text-[70px] text-4xl  flex flex-wrap'>
+				<h1 className='font-bold font-palanquin lg:text-8xl max-md:text-[70px] text-4xl  flex flex-wrap mt-2'>
 					<span className='xl:whitespace-nowrap relative w-full pr-10  '>
 						New Arrival
 					</span>
@@ -23,7 +23,7 @@ const Hero = () => {
 					</span>
 					Shoes
 				</h1>
-				<p className='font-montserrat text-md md:text-sm flex flex-wrap text-slate-gray py-6 max-sm:text-sm max-lg:w-full w-2/3'>
+				<p className='font-montserrat text-md md:text-sm flex flex-wrap leading-6 text-slate-gray py-6 max-sm:text-sm max-lg:w-full w-2/3'>
 					Discover Stylish Nike arrivals, quality comfort and
 					innovation for your active life.
 				</p>
@@ -51,7 +51,7 @@ const Hero = () => {
 					width={500}
 					height={400}
 				/>
-				<div className='absolute xl:bottom-[4%] flex z-20 sm:gap-6 gap-4 max-sm:px-4 max-sm:bottom-[25%] bottom-[-140px] md:bottom-[140px]'>
+				<div className='absolute xl:bottom-[4%] flex z-20 sm:gap-6 gap-4 max-sm:px-4 max-md:bottom-[25%] bottom-[-140px] md:bottom-[140px]'>
 					{shoes.map((shoe) => (
 						<div key={shoe.bigShoe}>
 							<ShoeCart

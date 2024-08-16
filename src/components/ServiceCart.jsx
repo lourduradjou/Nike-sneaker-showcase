@@ -16,7 +16,7 @@ const ServiceCart = ({ imgURL, label, subtext, bgColor }) => {
 				{label}
 			</h1>
             <div className='break-word '>
-                <p className={`${bgColor ? 'bg-slate-100 opacity-60 rounded-lg p-4 ' : ' bg-slate-200 opacity-60 rounded-lg p-4'} text-black font-montserrat text-md md:text-sm flex-wrap mt-4 text-center hover:opacity-100 duration-300`}>
+                <p className={`${bgColor ? 'bg-slate-100 opacity-60 rounded-lg p-4 ' : ' bg-slate-200 opacity-60 rounded-lg p-4'} text-black font-montserrat text-md md:text-sm flex-wrap mt-4 text-center hover:opacity-100 duration-300 leading-7`}>
                     {subtext}
                 </p>
             </div>

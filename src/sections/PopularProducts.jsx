@@ -8,7 +8,7 @@ const PopularProducts = () => {
 				Our <span className='text-primary-yellow'>Popular</span>{' '}
 				Products
 			</p>
-			<p className='text-md font-montserrat text-slate-gray my-2 lg:max-w-lg select-none'>
+			<p className='text-md font-montserrat text-slate-gray my-2 lg:max-w-lg select-none leading-6'>
 				Experience top-notch quality and style with our sought-after
 				selections. Discover a word class of comfort design and value
 			</p>

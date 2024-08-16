@@ -16,13 +16,13 @@ const SuperQuality = () => {
 					</span>
 					Shoes
 				</h1>
-				<p className='font-montserrat text-md md:text-sm  flex-wrap text-slate-gray my-4 lg:max-w-lg md:flex hidden'>
+				<p className='font-montserrat text-md md:text-sm leading-7 flex-wrap text-slate-gray my-4 lg:max-w-lg md:flex hidden text-center'>
 					Ensuring premium comfort and style our meticulously crafted
 					footwear is designed to elevate your Experience providing
 					you with unmatched quality, innovation, and a touch of
 					elegance.
 				</p>
-				<p className='font-montserrat text-md md:text-sm text-slate-gray lg:max-w-lg md:block hidden'>
+				<p className='font-montserrat text-center text-md md:text-sm text-slate-gray lg:max-w-lg md:block hidden'>
 					Our dedication to detail and excellence ensures your
 					satisfaction
 				</p>
