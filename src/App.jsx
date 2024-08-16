@@ -9,11 +9,13 @@ import {
 	SuperQuality,
 } from './sections/index'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const App = () => {
 	return (
 		<main className='relative'>
 			<Navbar />
+
 			<section className='xl:padding-1 wide:padding-r padding-b'>
 				<Hero />
 			</section>
@@ -35,6 +37,8 @@ const App = () => {
 			<section className='padding'>
 				<Subscribe />
 			</section>
+
+			<Footer />
 		</main>
 	)
 }

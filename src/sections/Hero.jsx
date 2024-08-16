@@ -8,17 +8,17 @@ import { useState } from 'react'
 const Hero = () => {
 	const [bigShoeImg, setbigShoeImg] = useState(bigShoe1)
 	return (
-		<section id="hero" className='select-none xl:w-full min-h-screen padding-x flex md:flex-row flex-col max-md:items-center justify-center max-container '>
+		<section id="hero" className='select-none xl:w-full min-h-screen  padding-x flex md:flex-row flex-col max-md:items-center justify-center max-container '>
 			<div className='flex flex-col flex-wrap justify-center padding-x padding-y max-sm:padding-x md:w-2/4 '>
 				<p className='font-montserrat text-slate-gray text-sm lg:text-md mt-16'>
 					Your Stunning Experience With Our Shoes
 				</p>
-				<h1 className='font-bold font-palanquin lg:text-8xl max-md:text-[70px] text-4xl  flex flex-wrap mt-2'>
+				<h1 className='font-bold font-palanquin lg:text-8xl max-md:text-[70px] text-4xl flex flex-wrap mt-2'>
 					<span className='xl:whitespace-nowrap relative w-full pr-10  '>
 						New Arrival
 					</span>
 					<br />
-					<span className='font-palanquin text-[#fdc500] pr-4 duration-300 hover:text-coral-red'>
+					<span className='font-palanquin text-[#fdc500] pr-4 hover:duration-300 hover:text-coral-red'>
 						Nike
 					</span>
 					Shoes

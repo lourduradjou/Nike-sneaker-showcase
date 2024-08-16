@@ -1,11 +1,11 @@
-const Button = ({ label, iconUrl, bgColor, textColor, borderColor }) => {
+const Button = ({ label, iconUrl, bgColor, textColor, borderColor, fullWidth }) => {
 	return (
 		<button
 			className={`${
 				bgColor && textColor && borderColor
 					? `${bgColor} ${textColor} ${borderColor} border-2 hover:bg-gray-500 hover:text-white`
 					: "bg-primary-yellow hover:bg-[#ff7b00] "
-			} group flex justify-center max-w-40 items-center py-3 px-4 font-montserrat text-lg leading-none rounded-full font-medium duration-300 active:scale-95`}
+			} group flex justify-center max-w-40 items-center py-3 px-4 font-montserrat text-lg leading-none rounded-full font-medium duration-300 active:scale-95 ${fullWidth}`}
 		>
 			<span>{label}</span>
 			{iconUrl && (
