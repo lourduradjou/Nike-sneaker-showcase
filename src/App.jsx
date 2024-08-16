@@ -14,7 +14,6 @@ import Footer from './components/Footer'
 const App = () => {
 	return (
 		<main className='relative'>
-			
 			<Navbar />
 
 			<section className='xl:padding-1 wide:padding-r padding-b'>
@@ -38,8 +37,9 @@ const App = () => {
 			<section className='padding'>
 				<Subscribe />
 			</section>
-
-			<Footer />
+			<section className='bg-[#180e0a]'>
+				<Footer />
+			</section>
 		</main>
 	)
 }

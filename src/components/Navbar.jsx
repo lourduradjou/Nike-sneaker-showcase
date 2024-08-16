@@ -4,7 +4,7 @@ import { hamburger } from '../assets/icons'
 
 const Navbar = () => {
 	return (
-		<header className='padding-x py-6 absolute z-20 w-full  bg-[#252422] '>
+		<header className='padding-x py-6 absolute z-20 w-full  bg-[#180e0a] '>
 			<nav className='flex items-center max-container justify-between xl:pl-16'>
 				<a href='/'>
 					<img src={headerLogo} alt='logo' width={130} height={30} />
