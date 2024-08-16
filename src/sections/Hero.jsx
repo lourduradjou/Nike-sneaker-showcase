@@ -43,7 +43,7 @@ const Hero = () => {
 					))}
 				</div>
 			</div>
-			<div className='relative flex flex-1 justify-center min-h-screen  bg-hero bg-cover flex-col items-center w-full max-sm:w-3/4  max-md:h-2/4 max-sm:mt-12 max-sm:rounded-xl '>
+			<div className='relative flex flex-1 justify-center sm:min-h-screen  bg-hero bg-cover flex-col items-center w-full max-sm:w-3/4  max-sm:mt-12 max-sm:rounded-xl '>
 				<img
 					src={bigShoeImg}
 					className='object-contain relative z-10 flex items-center min-h-screen -top-10 max-lg:-top-32'

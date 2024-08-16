@@ -26,7 +26,7 @@
 @layer utilities {
 	
     .hovertext {
-      @apply relative inline-block hover:text-black ;
+      @apply relative inline-block;
     }
 
     .hovertext::before {
