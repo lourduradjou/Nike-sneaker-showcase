@@ -2,7 +2,7 @@ import Button from '../components/Button'
 import { arrowRight } from '../assets/icons'
 import { statistics, shoes } from '../constants/index'
 import bigShoe1 from '../assets/images/big-shoe1.png'
-import ShoeCart from '../components/ShoeCard'
+import ShoeCart from '../components/ShoeCart'
 import { useState } from 'react'
 
 const Hero = () => {
