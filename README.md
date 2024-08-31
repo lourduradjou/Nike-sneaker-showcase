@@ -2,4 +2,5 @@
 
 ## Images:
 
-![demo image for the AI summarization webapp](./src/assets/images/nike-webapp.jpeg)
+![demo image for the AI summarization webapp](src/assets/images/Nike-webapp.jpeg)
+
